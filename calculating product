@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    
+    int num1, num2, product; //Deceleration and initilition the variables
+    
+    printf("\nEnter the first number: "); //Asking for first number as input
+    scanf("%d", &num1);
+    
+    
+    printf("\nEnter the second number: "); //Asking for second number as input
+    scanf("%d", &num2);
+    
+    product = num1 * num2; //Calculating product
+    
+    printf("\nThe product of %d and %d is: %d", num1, num2, product); //Printing the product of numbers
+   
+
+    return 0;
+}
