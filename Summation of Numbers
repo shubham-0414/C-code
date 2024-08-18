@@ -1,0 +1,21 @@
+#include <stdio.h> //Including header file 
+
+int main() {
+
+   int num1, num2, sum = 0; // Declaration of variables
+   
+   printf("\nEnter the first number: "); // Asking for First number input
+   scanf("%d", &num1);
+   
+   printf("\nEnter the second number: "); // Taking Second number as Input
+   scanf("%d",&num2);
+   
+   sum = num1 + num2; // Summation of numbers
+   
+   printf("\nSum of %d and %d is: %d",num1,num2,sum); // Printing the sum of numbers.
+   
+   
+   
+
+    return 0;
+}
