@@ -1,0 +1,33 @@
+#include <stdio.h> //including header file
+
+int main() 
+{
+    int i; num; even; odd; //initiallising the variables
+    printf("\nEnter the num: ");  //Asking for first number as input
+    scanf("%d", &num);
+    
+    printf("Even number:"); 
+    for(i = 1; i <= num; i++)
+    {  //using for loop
+        
+        if(i % 2 == 0)   
+        {  //check if the number is even
+            
+     printf("%d\t", i);  //printing the even number
+            even++;  //increment of even counter
+        }
+    }
+    printf("\nOdd number: ");
+    for(i = 1; i <= num; i++)
+    {  
+        
+        
+        if(i % 2 != 0)
+        {  //check if the number is odd
+            
+         printf("%d\t", i);  //printing the odd number
+            odd++;  //increament of the odd counter
+        }
+    }
+    return 0;
+}
